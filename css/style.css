@@ -13,5 +13,100 @@ body{
 colores{
     color: #f3df7b;
     color: #73693b;
-    color: #736f5d
+    color: #736f5d;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/zapatosppal.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.header__h1{
+    -webkit-animation: pulse 10s unfinite;animation: pulse 10s infinite;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 300px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+@-webkit-keyframes pulse{
+    0% {color: #f3df7b;}
+    50% {color: #736f5d;}
+    100% {color: #73693b;}
+}
+@keyframes pulse{
+    0% {color: #f3df7b;}
+    50% {color: #736f5d;}
+    100% {color: #73693b;}
+}
+
+.container{
+    display: flex;
+    background-color: #736f5d;
+}
+.container__section{
+    width: 65%;
+    /* height: 400px; */
+    background-color: #73693b;
+    border-radius: 20px 20px;
+    margin: 20px;
+}
+.container__aside{
+    width: 35%;
+    background-color: #73693b;
+    border-radius: 20px 20px;
+    margin: 20px;
+}
+.container__h2{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+.container__p{
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+.container__figure{
+    background-image: url("../img/shooper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 400px;
+    border-radius: 15px 15px;
+    margin: 20px;
+}
+
+.aside__li{
+    list-style: none;
+    padding: 1rem;
+    letter-spacing: 1px;
+}
+.aside__span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/zapatosppal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100px;
+}
+.footer__parrafo{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: #f3df7b;
 }
