@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'timeregular';
+    src: url('../fonts/TimesNewNormalRegular.ttf');
+}
+body{
+    font-family: 'timeregular';
+}
+
+colores{
+    color: #f3df7b;
+    color: #73693b;
+    color: #736f5d
+}
