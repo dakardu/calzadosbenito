@@ -110,3 +110,18 @@ colores{
     letter-spacing: 1px;
     color: #f3df7b;
 }
+
+@media screen and (max-width: 830px){
+    .header__h1{
+        text-align: center;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container__section{
+        width: 90%;
+    }
+    .container__aside{
+        width: 90%;
+    }
+}
